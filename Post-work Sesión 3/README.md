@@ -6,8 +6,8 @@ Aquí se encuentra el contenido del Post-work se la sesión 03:
 ***
 * Se incluye el código fuente realizado.
 * Se incluyen los 2 videos solicitados.
-	* <a href="Reto01Sesion03.mp4">Video 1</a>
-	* <a href="Reto01Sesion03.mp4">Video 2</a>
+	* <a href="Reto01Sesion03.mp4" download>Video 1</a>
+	* <a href="Reto02Sesion03.mp4" download>Video 2</a>
 ***
 | Requisito                                                                                                | Sí lo cumple | No lo cumple |
 | -------------------------------------------------------------------------------------------------------- | ------------ | ------------ |
