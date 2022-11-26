@@ -1,0 +1,29 @@
+pipeline {
+  agent any
+
+  stages {
+    stage('Docker') {
+      steps {
+        echo 'Este es el stage donde se conecta Docker'
+      }
+    }
+    stage('Build') {
+      steps {
+          echo 'Este stage informa sobre el codigo a construir'
+          echo 'Conectando con Repo01'
+          echo 'Construyendo...'
+      }
+    }
+    stage('DevOps Config') {
+      steps {
+        echo 'Aquí se declaran variables de entorno'
+          script {
+          env.USER_NAME = 'Ignacio'
+          env.USER_PASSWORD = 'devops'
+          }
+          echo "Hola ${env.USER_NAME}"
+          echo "Tu password es: ${env.USER_PASSWORD}"
+      }
+    }
+  }
+}
